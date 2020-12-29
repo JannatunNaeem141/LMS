@@ -1,0 +1,406 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /*********** header section *******/
+    .header-section .top-header .info ul {
+        text-align: center;
+    }
+    .header-section .top-header .info ul li {
+        border: none;
+    }
+    .buttons ul {
+        text-align: center;
+    }
+    .buttons ul li {
+        border: none;
+    }
+    .main-menu {
+        padding: 15px 0px;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-item {
+        width: 120px;
+    }
+    .main-menu .navbar-light .navbar-nav {
+        display: grid;
+        place-items: center;
+    }
+    .form-inline {
+        display: grid;
+        place-items: center;
+    }
+    .navbar-light .navbar-brand {
+        font-size: 42px;
+    }
+    /*********** banner section *******/
+    .banner-section {
+        padding: 100px 0px 115px 0px;
+    }
+    .banner-section .banner-inner h2 {
+        font-size: 43px;
+        width: 100%;
+    }
+    .banner-section .banner-inner p {
+        font-size: 19px;
+        line-height: 25px;
+        width: 94%;
+        padding: 25px 0px;
+    }
+    /*********** why section *******/
+    .why {
+        padding: 60px 0px;
+    }
+    .why .why-head h2 {
+        font-size: 34px;
+    }
+    .why .why-head p {
+        width: 90%;
+    }
+    .why .why-item {
+        display: grid;
+        place-items: center;
+        margin-bottom: 30px;
+    }
+    .why .why-item .item-content {
+        display: grid;
+        place-items: center;
+    }
+    .why .why-item .item-content p {
+        text-align: center;
+    }
+    .why .why-item .item-img {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .why .padd-top {
+        margin-top: 0px;
+    }
+    /*********** key-point section *******/
+    .key-point {
+        padding: 60px 0px;
+    }
+    .key-point .key-head h2 {
+        font-size: 34px;
+    }
+    .key-point .key-head p {
+        width: 75%;
+    }
+    .key-point .col-md-3 {
+        display: grid;
+        place-items: center;
+    }
+    .key-point .key-item .key-content {
+        display: grid;
+        place-items: center;
+    }
+    .key-point .key-item .key-content h4 {
+        text-align: center;
+    }
+    .key-point .key-item .key-content p {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .key-point .key-item .key-img {
+        margin-bottom: 20px;
+    }
+    .key-point .key-padd {
+        margin-top: 0px;
+    }
+    /*********** course section *******/
+    .course-section {
+        padding: 60px 0px;
+    }
+    .course-section .course-head h2 {
+        font-size: 34px;
+    }
+    .course-section .course-head p {
+        width: 75%;
+    }
+    .course-section .card {
+        margin-bottom: 30px;
+    }
+    /*********** live-class section *******/
+    .live-class {
+        padding: 60px 0px;
+    }
+    .live-class .live-img {
+        display: grid;
+        place-items: center;
+        padding-top: 30px;
+    }
+    .live-class .video img {
+        height: 150px;
+        width: 250px;
+    }
+    .live-class .video-num {
+        padding-left: 20px;
+    }
+    .live-class .col-md-3 {
+        width: 63%;
+    }
+    /*********** news section *******/
+    .news {
+        padding: 60px 0px;
+    }
+    .news .news-head h2 {
+        font-size: 34px;
+    }
+    /*********** footer section *******/
+    .footer-section .map img {
+        height: 200px;
+        width: 339px;
+    }
+    .footer-section {
+        padding: 60px 0px;
+    }
+    .footer-section .sign-up {
+        text-align: left;
+    }
+    .footer-section .sign-up .btn-primary {
+        margin-top: 20px;
+    }
+    .footer-section .social-icon ul {
+        float: left;
+    }
+    .footer-section .middle .links p {
+        margin: 20px 0px 8px;
+    }
+    .footer-section .copyright p {
+        text-align: center;
+    }
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /*********** header section *******/
+    .header-section .top-header .info ul {
+        text-align: center;
+    }
+    .header-section .top-header .info ul li {
+        border: none;
+    }
+    .buttons ul {
+        text-align: center;
+    }
+    .buttons ul li {
+        border: none;
+    }
+    .main-menu {
+        padding: 15px 0px;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-item {
+        width: 120px;
+    }
+    .main-menu .navbar-light .navbar-nav {
+        display: grid;
+        place-items: center;
+    }
+    .form-inline {
+        display: grid;
+        place-items: center;
+    }
+    .navbar-light .navbar-brand {
+        font-size: 42px;
+    }
+    /*********** banner section *******/
+    .banner-section {
+        padding: 100px 0px 115px 0px;
+    }
+    .banner-section .banner-inner h2 {
+        font-size: 43px;
+        width: 100%;
+    }
+    .banner-section .banner-inner p {
+        font-size: 19px;
+        line-height: 25px;
+        width: 94%;
+        padding: 25px 0px;
+    }
+    /*********** why section *******/
+    .why {
+        padding: 60px 0px;
+    }
+    .why .why-head h2 {
+        font-size: 34px;
+    }
+    .why .why-head p {
+        width: 90%;
+    }
+    .why .why-item {
+        display: grid;
+        place-items: center;
+        margin-bottom: 30px;
+    }
+    .why .why-item .item-content {
+        display: grid;
+        place-items: center;
+    }
+    .why .why-item .item-content p {
+        text-align: center;
+    }
+    .why .why-item .item-img {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .why .padd-top {
+        margin-top: 0px;
+    }
+    /*********** key-point section *******/
+    .key-point {
+        padding: 60px 0px;
+    }
+    .key-point .key-head h2 {
+        font-size: 34px;
+    }
+    .key-point .key-head p {
+        width: 75%;
+    }
+    .key-point .col-md-3 {
+        display: grid;
+        place-items: center;
+    }
+    .key-point .key-item .key-content {
+        display: grid;
+        place-items: center;
+    }
+    .key-point .key-item .key-content h4 {
+        text-align: center;
+    }
+    .key-point .key-item .key-content p {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .key-point .key-item .key-img {
+        margin-bottom: 20px;
+    }
+    .key-point .key-padd {
+        margin-top: 0px;
+    }
+    /*********** course section *******/
+    .course-section {
+        padding: 60px 0px;
+    }
+    .course-section .course-head h2 {
+        font-size: 34px;
+    }
+    .course-section .course-head p {
+        width: 75%;
+    }
+    .course-section .card {
+        margin-bottom: 30px;
+    }
+    /*********** live-class section *******/
+    .live-class {
+        padding: 60px 0px;
+    }
+    .live-class .live-img {
+        display: grid;
+        place-items: center;
+        padding-top: 30px;
+    }
+    .live-class .video img {
+        height: 150px;
+        width: 250px;
+    }
+    .live-class .video-num {
+        padding-left: 20px;
+    }
+    .live-class .col-md-3 {
+        width: 60%;
+    }
+    /*********** news section *******/
+    .news {
+        padding: 60px 0px;
+    }
+    .news .news-head h2 {
+        font-size: 34px;
+    }
+    /*********** footer section *******/
+    .footer-section .map img {
+        height: 218px;
+        width: 405px;
+    }
+    .footer-section {
+        padding: 60px 0px;
+    }
+    .footer-section .sign-up {
+        text-align: left;
+    }
+    .footer-section .sign-up .btn-primary {
+        margin-top: 0px;
+    }
+    .footer-section .social-icon ul {
+        float: left;
+    }
+    .footer-section .middle .links p {
+        margin: 20px 0px 8px;
+    }
+    .footer-section .copyright p {
+        text-align: center;
+    }
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main-menu .navbar-light .navbar-nav {
+        display: grid;
+        place-items: center;
+    }
+    .form-inline {
+        display: grid;
+        place-items: center;
+    }
+    /*********** key-pointsection *******/
+    .key-point .key-item .key-img {
+        height: 100px;
+        width: 100px;
+    }
+    .key-point .key-item .key-content {
+        padding-left: 30px;
+    }
+    /*********** live-class section *******/
+    .live-class .video img {
+        height: 199px;
+        width: 339px
+    }
+    .live-class .video-num {
+        padding-left: 90px;
+    }
+    /*********** footer section *******/
+    .footer-section .map img {
+        height: 218px;
+        width: 405px;
+    }
+    .footer-section .sign-up .btn-primary {
+        margin-top: 20px;
+    }
+}
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /*********** footer section *******/
+    .footer-section .map img {
+        height: 224px;
+        width: 464px;
+    }
+    .footer-section .sign-up .btn-primary {
+        margin-top: 20px;
+    }
+}
